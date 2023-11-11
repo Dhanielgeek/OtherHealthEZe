@@ -1,0 +1,629 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sub{
+    width: 100%;
+    height: 40px;
+    background: #272A31;
+    display: flex;
+    justify-content: flex-end;
+    padding-inline: 5%;
+}
+.Lang{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Lang nav{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.HeaderImg{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.Nav{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Nav nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+    transform: scale(1);
+}
+.Nav nav:hover{
+    transform: scale(1.1);
+}
+.CampainAd{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CampainAd button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+    transform: scale(1);
+}
+.CampainAd button:hover{
+    transform: scale(1.1);
+}
+.menu{
+    width: 10%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+.Hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/Images/hero-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2% 7%;
+}
+.hello{
+    width: 35%;
+    height: 11%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hello h2{
+    color: #EC5242;
+    font-size: 40px;
+    font-weight: 500;
+}
+.bgText{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bgText h1{
+    font-size: 85px;
+    background-image: url('../assets/Images/h1-background.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    font-weight: 900;
+}
+.content{
+    width: 50%;
+    height: 19%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-inline: 10px;
+}
+.content p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.nxtcontent{
+    width: 50%;
+    height: 18%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 10px;
+}
+.nxtcontent h1{
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nxtcontent p{
+    font-size: 20px;
+}
+.Main{
+    width: 100%;
+    height: 60vh;
+    background-image: url('../assets/Images/program-bg.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainProgam{
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15%;
+}
+.mainProgam h2{
+    font-size: 30px;
+    color: white;
+}
+.line{
+    width: 20%;
+    height: 1px;
+    border: 1px solid orangered;
+}
+.ProgramContainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.seeMore{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seeMore h2{
+    color: white;
+    transform: scale(1);
+    cursor: pointer;
+}
+.seeMore h2:hover{
+    transition: all 350ms ease-in-out;
+    text-decoration: underline;
+}
+.card{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    background: #00000070;
+}
+.card:hover{
+    transition: all 350ms ease-in-out;
+    transform: scale(1.1);
+    border: 2px solid white;
+    z-index: 1;
+}
+.cardImg{
+    width: 60%;
+    height: 30%;
+}
+.cardImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card p{
+    text-align: center;
+    color: white;
+}
+.card h3{
+    color: #EC5242;
+}
+.join{
+    width: 70%;
+    height: 9%;
+    background: #EC5242;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 10px;
+}
+.featured{
+    width: 100%;
+    height: 100vh;
+    /* background: green; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.featureGuest{
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15%;
+}
+.featureGuest h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.GuestHolder{
+    width: 100%;
+    height: 90%;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.CardInfo{
+    width: 90%;
+    height: 30%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.contain{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+}
+.hold{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid white; */
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imghold1{
+width: 125px;
+height: 120px;
+/* background: #000; */
+position: relative;
+z-index: 1;
+}
+.imghold2{
+width: 100px;
+height: 90px;
+/* background: orangered; */
+position: absolute;
+top: -10px;
+left: -1rem;
+}
+.imghold2 img{
+    width: 90%;
+    height: 70%;
+    object-fit: contain;
+}
+.imghold1 img{
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+.HoldText{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.HoldText span{
+    font-style: italic;
+    color: #EC5242;
+}
+.HoldText h3{
+    font-size: 25px;
+}
+.partner{
+    width: 100%;
+    height: 40vh;
+    background: #272A31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.partCon{
+    width: 60%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.logocon{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.partCon h3{
+    font-size: 25px;
+    color: white;
+}
+.logocon img{
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footerImg{
+    width: 25%;
+    height: 70%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerImg img{
+    width: 50%;
+    height: 90%;
+    object-fit: contain;
+}
+@media screen and (max-width:800px) {
+    .sub{
+        display: none;
+    }
+    .HeaderImg{
+        display: none;
+    }
+    .Nav{
+        display: none; 
+    }
+    .CampainAd{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header{
+        align-items: center;
+        justify-content: flex-start;
+        padding-inline: 10px;
+    }
+    .bgText{
+        width: 100%;
+        /* background: #000; */
+    }
+    .bgText h1{
+        font-size: 75px;
+    }
+    .hello{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .nxtcontent{
+        width: 100%;
+    }
+    .Main{
+        height: 100vh;
+    }
+    .ProgramContainer{
+        /* background: green; */
+        width: 100%;
+        flex-direction: column;
+    }
+    .card{
+        width: 70%;
+        height: 19%;
+    }
+    .cardImg{
+        width: 40%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardImg img{
+        width: 40%;
+    }
+    .seeMore{
+        display: none;
+    }
+    .join{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ }
+ .featured{
+    height: fit-content;
+ }
+  .CardInfo{
+    flex-direction:column;
+}
+.contain{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+}
+}
+@media screen and (max-width:425px) {
+
+    .bgText h1{
+        font-size: 50px;
+    }
+    .hello h2{
+        font-size: 30px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .nxtcontent h1{
+        font-size: 20px;
+    }
+    .Main{
+        height: fit-content;
+    }
+    .mainProgam{
+        width: 100%;
+        height: 5rem;
+        justify-content: space-evenly;
+    }
+    .join{
+        height: 3rem;
+        margin: 5% 5%;
+    }
+    .featured{
+        height: fit-content;
+    }
+    .CardInfo{
+        flex-direction:column;
+    }
+    .contain{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .footerImg{
+        width: 90%;
+    }
+    .footerImg img{
+    width: 90%;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .content p{
+        font-size: 12px;
+    }
+   
+    .bgText h1{
+        font-size: 46.4px;
+    }
+    .Main{
+        height: fit-content;
+    }
+    .mainProgam{
+        width: 100%;
+        height: 5rem;
+        justify-content: space-evenly;
+    }
+    .join{
+        height: 3rem;
+        margin: 5% 5%;
+    }
+    .featured{
+        height: fit-content;
+    }
+    .CardInfo{
+        flex-direction: column;
+    }
+    .contain{
+        flex-direction: column;
+    }
+    .footerImg{
+        width: 90%;
+    }
+    .footerImg img{
+    width: 90%;
+    }
+}
+@media screen and (max-width:320px){
+    .bgText h1{
+        font-size: 44px;
+    }
+    .content p{
+        font-size: 11px;
+    }
+    .Main{
+        height: max-content;
+    }
+    .ProgramContainer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+    }
+    .card{
+        width: 60%;
+        margin-top: 10px;
+    }
+    .seeMore{
+        width: 100%;
+    }
+    .seeMore h2{
+        font-size: 20px;
+    }
+    .mainProgam{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .join{
+        height: 3rem;
+        margin: 5% 5%;
+    }
+    .featured{
+        height: fit-content;
+    }
+    .CardInfo{
+        flex-direction: column;
+    }
+    .contain{
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .hold{
+        width: 70%;
+        justify-content: center;
+    }
+    .imghold1{
+        width: 50%;
+
+    }
+    .imghold2{
+        width: 80%;
+        top: 10px;
+    }
+   
+}
